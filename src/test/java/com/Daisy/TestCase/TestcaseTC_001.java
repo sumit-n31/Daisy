@@ -7,7 +7,6 @@ import com.Daisy.UIKeywords.UIKeywords;
 import com.Daisy.config.Application;
 import com.Daisy.config.BaseClass;
 
-
 public class TestcaseTC_001 extends BaseClass {
 
 	UIKeywords u = UIKeywords.getInstance();
@@ -18,6 +17,11 @@ public class TestcaseTC_001 extends BaseClass {
 	public void verifyLoginpage() {
 		u.launchUrl(ap.getUrl());
 		log.info("url is launch");
+
+	}
+
+	public void m2() {
+		System.out.println("Creating conflict on GitHub");
 
 	}
 
