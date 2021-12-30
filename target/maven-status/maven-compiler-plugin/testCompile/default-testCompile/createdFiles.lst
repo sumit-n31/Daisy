@@ -1,0 +1,7 @@
+com\testingshastra\stepdefinations\HomePageSteps.class
+com\testingshastra\uitest\HomePageObjectTest.class
+com\testingshastra\stepdefinations\Stepdefination.class
+com\testingshastra\uitest\Signuptest.class
+com\testingshastra\stepdefinations\Parametrizationsteps.class
+com\testingshastra\util\RunnerTest.class
+com\testingshastra\uitest\Homepagetest.class

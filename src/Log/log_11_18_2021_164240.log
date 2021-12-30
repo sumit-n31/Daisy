@@ -1,0 +1,6 @@
+2021-Nov-18 16:42:30,840 [TestNG-tests-1] com.testingshastra.uitest.Signuptest 
+  INFO  Url is launchedhttps://ijmeet.com/
+2021-Nov-18 16:42:37,610 [TestNG-tests-1] com.testingshastra.uitest.Signuptest 
+  INFO  Click on Register button.
+2021-Nov-18 16:42:38,069 [TestNG-tests-1] com.testingshastra.uitest.Signuptest 
+  INFO  Switched to Frame.

@@ -1,0 +1,8 @@
+com\testingshastra\util\Propertiesfile.class
+com\testingshastra\pageobject\JoinMeetingPage.class
+com\testingshastra\util\TestListener.class
+com\testingshastra\keywords\UIKeywords.class
+com\testingshastra\config\BaseClass.class
+com\testingshastra\util\waitFor.class
+com\testingshastra\util\Locators.class
+com\testingshastra\config\Application.class

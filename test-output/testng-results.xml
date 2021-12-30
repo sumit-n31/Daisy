@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6940" started-at="2021-12-29T19:59:09 IST" finished-at="2021-12-29T19:59:16 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="6940" started-at="2021-12-29T19:59:09 IST" finished-at="2021-12-29T19:59:16 IST">
+      <class name="com.testingshastra.util.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="setUpClass" is-config="true" duration-ms="5153" started-at="2021-12-29T19:59:09 IST" finished-at="2021-12-29T19:59:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" duration-ms="893" started-at="2021-12-29T19:59:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-29T19:59:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are learning cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our first feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+at io.qameta.allure.testng.AllureTestNg.getLabels(AllureTestNg.java:558)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:286)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:248)
+at io.qameta.allure.testng.AllureTestNg.onTestStart(AllureTestNg.java:237)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+... 29 more
+Caused by: java.lang.ClassNotFoundException: io.qameta.allure.util.AnnotationUtils
+at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355)
+at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" duration-ms="12" started-at="2021-12-29T19:59:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-29T19:59:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are learning cucumber-2."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our first feature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+at io.qameta.allure.testng.AllureTestNg.getLabels(AllureTestNg.java:558)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:286)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:248)
+at io.qameta.allure.testng.AllureTestNg.onTestStart(AllureTestNg.java:237)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" duration-ms="9" started-at="2021-12-29T19:59:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-29T19:59:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are providing int parameters through cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+at io.qameta.allure.testng.AllureTestNg.getLabels(AllureTestNg.java:558)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:286)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:248)
+at io.qameta.allure.testng.AllureTestNg.onTestStart(AllureTestNg.java:237)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" duration-ms="8" started-at="2021-12-29T19:59:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-29T19:59:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We providing word parameters to sort alphabetically."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+at io.qameta.allure.testng.AllureTestNg.getLabels(AllureTestNg.java:558)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:286)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:248)
+at io.qameta.allure.testng.AllureTestNg.onTestStart(AllureTestNg.java:237)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" duration-ms="11" started-at="2021-12-29T19:59:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-29T19:59:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are providing float parameters through cucumber."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+at io.qameta.allure.testng.AllureTestNg.getLabels(AllureTestNg.java:558)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:286)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:248)
+at io.qameta.allure.testng.AllureTestNg.onTestStart(AllureTestNg.java:237)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="runScenario" duration-ms="17" started-at="2021-12-29T19:59:16 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-29T19:59:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are providing list parameters through cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.BootstrapMethodError">
+            <message>
+              <![CDATA[java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.BootstrapMethodError: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+at io.qameta.allure.testng.AllureTestNg.getLabels(AllureTestNg.java:558)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:286)
+at io.qameta.allure.testng.AllureTestNg.startTestCase(AllureTestNg.java:248)
+at io.qameta.allure.testng.AllureTestNg.onTestStart(AllureTestNg.java:237)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
+at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:219)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:569)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NoClassDefFoundError: io/qameta/allure/util/AnnotationUtils
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.BootstrapMethodError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testingshastra.util.RunnerTest@661972b0]" name="tearDownClass" is-config="true" duration-ms="436" started-at="2021-12-29T19:59:16 IST" finished-at="2021-12-29T19:59:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testingshastra.util.RunnerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

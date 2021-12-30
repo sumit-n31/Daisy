@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="400981" started-at="2021-12-30T12:04:26 IST" finished-at="2021-12-30T12:11:07 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="400981" started-at="2021-12-30T12:04:26 IST" finished-at="2021-12-30T12:11:07 IST">
+      <class name="com.testingshastra.util.RunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="setUpClass" is-config="true" duration-ms="3345" started-at="2021-12-30T12:08:10 IST" finished-at="2021-12-30T12:08:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" duration-ms="89963" started-at="2021-12-30T12:08:14 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T12:09:44 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are learning cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our first feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" duration-ms="61992" started-at="2021-12-30T12:09:44 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T12:10:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are learning cucumber-2."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our first feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" duration-ms="96" started-at="2021-12-30T12:10:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T12:10:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are providing int parameters through cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" duration-ms="81" started-at="2021-12-30T12:10:46 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T12:10:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We providing word parameters to sort alphabetically."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" duration-ms="72" started-at="2021-12-30T12:10:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T12:10:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are providing float parameters through cucumber."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="runScenario" duration-ms="921" started-at="2021-12-30T12:10:47 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-12-30T12:10:48 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["We are providing list parameters through cucumber"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This is our second feature file.]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testingshastra.util.RunnerTest@25d250c6]" name="tearDownClass" is-config="true" duration-ms="19501" started-at="2021-12-30T12:10:48 IST" finished-at="2021-12-30T12:11:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testingshastra.util.RunnerTest -->
+      <class name="com.testingshastra.uitest.HomePageObjectTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:com.testingshastra.uitest.HomePageObjectTest@45b9a632]" name="setUp" is-config="true" duration-ms="99341" started-at="2021-12-30T12:04:27 IST" finished-at="2021-12-30T12:06:06 IST">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateAlllinksofHomePage()[pri:0, instance:com.testingshastra.uitest.HomePageObjectTest@45b9a632]" name="validateAlllinksofHomePage" duration-ms="121830" started-at="2021-12-30T12:06:07 IST" finished-at="2021-12-30T12:08:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAlllinksofHomePage -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.testingshastra.uitest.HomePageObjectTest@45b9a632]" name="closeBrowser" is-config="true" duration-ms="1187" started-at="2021-12-30T12:08:09 IST" finished-at="2021-12-30T12:08:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.testingshastra.uitest.HomePageObjectTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
