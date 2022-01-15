@@ -8,4 +8,8 @@ public class Application {
 	public String getUrl() {
 		return Propertiesfile.getProperty(filepath, "url");
 	}
+
+	private void m2() {
+		System.out.println("Sumit Naikwadi");
+	}
 }
