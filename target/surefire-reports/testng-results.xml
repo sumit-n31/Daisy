@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.Daisy.TestCase.TestcaseTC_001" duration-ms="66794" started-at="2021-12-29T19:13:43 IST" finished-at="2021-12-29T19:14:50 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="66794" started-at="2021-12-29T19:13:43 IST" finished-at="2021-12-29T19:14:50 IST">
+      <class name="com.Daisy.TestCase.TestcaseTC_001">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.Daisy.TestCase.TestcaseTC_001@4abdb505]" name="setUp" is-config="true" duration-ms="56369" started-at="2021-12-29T19:13:44 IST" finished-at="2021-12-29T19:14:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginpage()[pri:0, instance:com.Daisy.TestCase.TestcaseTC_001@4abdb505]" name="verifyLoginpage" duration-ms="8824" started-at="2021-12-29T19:14:40 IST" finished-at="2021-12-29T19:14:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Daisy.TestCase.TestcaseTC_001@4abdb505]" name="tearDown" is-config="true" duration-ms="1361" started-at="2021-12-29T19:14:49 IST" finished-at="2021-12-29T19:14:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Daisy.TestCase.TestcaseTC_001 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.Daisy.TestCase.TestcaseTC_001 -->
+</testng-results>

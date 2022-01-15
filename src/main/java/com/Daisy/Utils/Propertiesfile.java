@@ -6,17 +6,15 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class Propertiesfile {
-	
-	public static String getProperty(String fileName,String key) {
+	public static String getProperty(String fileName, String key) {
 		String dir = System.getProperty("user.dir");
 		FileInputStream fis;
-		String value ="";
-		
+		String value = "";
 		try {
-			fis = new FileInputStream(dir+fileName);
+			fis = new FileInputStream(dir + fileName);
 			Properties prop = new Properties();
 			prop.load(fis);
-			value=prop.getProperty(key);
+			value = prop.getProperty(key);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -25,8 +23,6 @@ public class Propertiesfile {
 			e.printStackTrace();
 		}
 		return value;
-		
-
 	}
 
 }

@@ -1,6 +1,4 @@
-2021-Nov-10 22:44:12,789 [main] com.Daisy.config.BaseClass 
-  INFO  Browser open.
-2021-Nov-10 22:44:19,360 [main] com.Daisy.TestCase.TestcaseTC_001 
+2021-Dec-29 19:54:03,106 [main] com.Daisy.TestCase.TestcaseTC_001 
   INFO  url is launch
-2021-Nov-10 22:44:20,234 [main] com.Daisy.config.BaseClass 
+2021-Dec-29 19:54:04,213 [main] com.Daisy.config.BaseClass 
   INFO  Browser Close.
