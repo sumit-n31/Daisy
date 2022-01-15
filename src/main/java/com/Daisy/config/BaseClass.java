@@ -15,7 +15,7 @@ public class BaseClass {
 	public void setUp() {
 		u.openBrowser();
 		log.info("Browser open.");
-
+        System.out.println("For creating conflict");
 	}
 
 	@AfterMethod
