@@ -4,10 +4,12 @@ import com.Daisy.Utils.Propertiesfile;
 
 public class Application {
 	private static final String filepath = "\\src\\main\\resources\\Application.properties";
-	
+
 	public String getUrl() {
 		return Propertiesfile.getProperty(filepath, "url");
-
 	}
 
+	public void m1() {
+		System.out.println("m1 method");
+	}
 }
